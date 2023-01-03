@@ -26,7 +26,10 @@ public class Program
                 Console.WriteLine("Would you like to restart? Enter Yes or y to continue, or enter any other key to exit.");
                 runagain = (Console.ReadLine());
                 if (runagain != "yes" && runagain != "y")
+                {
                     Console.WriteLine("Goodbye");
+                }
+
                 else
                 {
                 }
